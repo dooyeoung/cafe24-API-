@@ -97,7 +97,7 @@ print(token)
 path_local  = '/Users/dooyeoung/Documents/projects/backend/server_v1/cafe24_token.json'
 path_server = ''
 with open(path_local, 'wt') as f:
-	json.dump(token, f, indent=2)
+  json.dump(token, f, indent=2)
  
 path_pemfile = ''
 # 토큰파일을 flaks api에도 업로드 
